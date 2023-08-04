@@ -31,7 +31,9 @@ List.append(5)
 print(List)  # [2, 4, 6, 8, 9, 15, 16, 17, 18, 19, 1, 2, 3, 4, 5]
 
 List.sort()
+
 print(List)  # [1, 2, 2, 3, 4, 4, 5, 6, 8, 9, 15, 16, 17, 18, 19]
 
 List.sort(reverse=True)
+
 print(List)

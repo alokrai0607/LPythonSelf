@@ -1,6 +1,8 @@
 # Method 1: Using a for loop
-List = []  # Initialize an empty list
+  
+# Initialize an empty list
 
+List = []
 for i in range(1, 11):
     List.append(i)
 

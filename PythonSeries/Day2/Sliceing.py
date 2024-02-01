@@ -7,3 +7,4 @@ print(str[:])  #Full slice
 
 #Fourth index can include but End index will not be include in slice case.
 
+    

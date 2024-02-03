@@ -1,8 +1,8 @@
 
 
-# str = "Alok"
-# str[0] = "K"
-# print(str)   #TypeError: 'str' object does not support item assignment because String is immutable in python
+str = "Alok"
+str[0] = "K"
+print(str)   #TypeError: 'str' object does not support item assignment because String is immutable in python
 
 
 

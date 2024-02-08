@@ -23,6 +23,13 @@ print(StudentInfo["age"]) #29
 print(StudentInfo["marks"]) #95.5
 print(StudentInfo["Male"])  #True
 
+print(StudentInfo)
+
+
+nullDic = {}
+print(nullDic)  #{}
+
+
 
 
 

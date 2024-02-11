@@ -20,6 +20,8 @@ print(Student.keys())  #dict_keys(['name', 'score'])
 
 #if we want to return all values then
 print(Student.values())  #dict_values(['Alok', {'chem': 95, 'math': 90, 'phy': 92}])
+#typecast
+print(list(Student.values()))  #['Alok', {'chem': 95, 'math': 90, 'phy': 92}]
 
 
 #return all key value pairs as tupple

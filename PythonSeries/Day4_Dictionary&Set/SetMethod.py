@@ -13,6 +13,7 @@ print(emptySet)   #{2, 3}
 emptySet.remove(2)
 print(emptySet)  #{3}
 
+#if we want to clear set then we will use clear method .
 emptySet.clear()
 print(emptySet)  #set()
 
@@ -27,7 +28,7 @@ emptySet.pop()
 print(emptySet) #{3, 5, 7, 9}
 
 emptySet.pop()
-print(emptySet) #{5, 7, 9}   will remove element from first not from last .
+print(emptySet) #{5, 7, 9}   will remove element in randome order from empty set.
 
 
 

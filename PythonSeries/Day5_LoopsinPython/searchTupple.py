@@ -3,6 +3,6 @@ x=11
 i = 0
 while i<len(nums):
     if(nums[i]==x):
-        print("Happy",i)
+        print("Happy, found at index :",i)
     i+=1
 

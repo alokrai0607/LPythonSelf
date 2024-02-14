@@ -4,4 +4,4 @@ def printFact(n):
      prod*=i
     print(prod)
 
-printFact(5)
+printFact(10)

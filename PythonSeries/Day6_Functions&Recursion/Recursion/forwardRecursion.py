@@ -3,5 +3,6 @@ def fwdRec(n):
         return
     print(n)
     fwdRec(n+1)
+    print("Layer Deleted in stack")
 
 fwdRec(1)

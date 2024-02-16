@@ -1,7 +1,8 @@
-def printAll(list,idx):
-    if(list==0):
+def printAll(list,idx=0):
+    if(idx == len(list)):
         return 
-    return printAll(list[idx])
+    print(list[idx])
+    printAll(list,idx+1)
 
 a = [1,2,3,4,5]
-print(a)
+printAll(a)

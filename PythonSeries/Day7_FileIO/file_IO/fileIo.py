@@ -1,14 +1,6 @@
-
-# f = open("demo.txt", "r")
-# data = f.read()
-# print(data)
-
-
-
 try:
-    f = open("C:\Users\91904\OneDrive\Desktop\LPythonSelf\PythonSeries\Day7_FileIO\file_IO\demo.txt" , "r")
+    f = open("newfile.txt", "r")
     # Perform operations on the file
     f.close()
 except FileNotFoundError:
-    print("The file 'demo.txt' does not exist or could not be found.")
-
+    print("The file 'newfile.txt' does not exist or could not be found.")

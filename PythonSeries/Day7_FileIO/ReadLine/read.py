@@ -5,4 +5,10 @@ print(line1)
 line2 = f.readline()
 print(line2)
 
+
+data = f.read()
+print(data)
+
+
+
 f.close()

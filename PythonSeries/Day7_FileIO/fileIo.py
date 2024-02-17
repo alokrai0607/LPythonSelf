@@ -6,7 +6,7 @@
 
 
 try:
-    f = open("PythonSeries\Day7_FileIO\demo.txt" , "r")
+    f = open("demo.txt" , "r+t")
     # Perform operations on the file
     f.close()
 except FileNotFoundError:

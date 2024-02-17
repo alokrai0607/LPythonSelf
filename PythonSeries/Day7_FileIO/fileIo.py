@@ -3,6 +3,8 @@
 # data = f.read()
 # print(data)
 
+
+
 try:
     f = open("PythonSeries\Day7_FileIO\demo.txt" , "r")
     # Perform operations on the file

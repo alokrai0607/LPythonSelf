@@ -1,6 +1,6 @@
-try:
-    f = open("newfile.txt", "r")
-    # Perform operations on the file
-    f.close()
-except FileNotFoundError:
-    print("The file 'newfile.txt' does not exist or could not be found.")
+# Read a text file in Python
+file_path = "C:\\Users\\91904\\OneDrive\\Desktop\\LPythonSelf\\PythonSeries\\Day7_FileIO\\file_IO\\newfile.txt" # Replace with the path to your text file
+with open(file_path, "r") as file:
+    content = file.read()
+
+print(content)

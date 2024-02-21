@@ -1,3 +1,5 @@
+
+#With Syanax
 # Opening a file in exclusive creation mode for writing
 with open(r'C:\Users\91904\OneDrive\Desktop\LPythonSelf\PythonSeries\Day7_FileIO\IOModes\file.txt', 'x') as f:
     f.write('This file was created exclusively.')

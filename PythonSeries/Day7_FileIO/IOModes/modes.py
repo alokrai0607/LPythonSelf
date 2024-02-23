@@ -4,30 +4,39 @@
 with open(r'C:\Users\91904\OneDrive\Desktop\LPythonSelf\PythonSeries\Day7_FileIO\IOModes\file.txt', 'x') as f:
     f.write('This file was created exclusively.')
 
+
 # Writing to a file in text mode
 with open('file.txt', 'w') as f:
     f.write('Hello, world!')
+
 
 
 # Reading a file in text mode
 with open('file.txt', 'r') as f:
     content = f.read()
 
+
+
 # Appending to a file in text mode
 with open('file.txt', 'a') as f:
     f.write('\nThis is a new line.')
+
+
 
 # Opening a file in binary mode for reading
 with open('file.bin', 'rb') as f:
     content = f.read()
 
+
 # Opening a file in binary mode for writing
 with open('file.bin', 'wb') as f:
     f.write(b'This is a binary file.')
 
+
 # Opening a file in binary mode for appending
 with open('file.bin', 'ab') as f:
     f.write(b'\nThis is a new binary line.')
+
 
 
 

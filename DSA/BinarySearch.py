@@ -8,7 +8,7 @@ input_array = [1, 2, 3, 4, 5, 6]
 target = 4
 
 #function here
-   def binarySearch(arr, target):
+def binarySearch(arr, target):
     left, right = 0, len(arr) - 1
 
     while left <= right:

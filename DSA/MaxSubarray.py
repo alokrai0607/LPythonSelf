@@ -6,6 +6,7 @@
 # Input
 inputArray = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
+
 def maxSubarraySum(nums):
     maxSum = nums[0]
     currSum = nums[0]

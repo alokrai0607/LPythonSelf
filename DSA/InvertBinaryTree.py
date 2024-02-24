@@ -4,6 +4,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
 def invert_binary_tree(root):
     if root is None:
         return None

@@ -5,6 +5,7 @@ def missingNumber(nums):
     missingNumber = total_sum - array_sum
     return missingNumber
 
+
 input_array = [3, 0, 1]
 
 output = missingNumber(input_array)

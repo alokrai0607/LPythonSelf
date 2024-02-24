@@ -20,6 +20,7 @@ class QueueUsingStack:
 
         return self.dequeue_stack.pop()
 
+
 # Input
 queue = QueueUsingStack()
 output = []

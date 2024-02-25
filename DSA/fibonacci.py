@@ -1,6 +1,7 @@
 def fibonacci(n):
      # Initialize the sequence with the first two Fibonacci numbers
   
+  
     sequence = [0, 1] 
 
     while len(sequence) < n:

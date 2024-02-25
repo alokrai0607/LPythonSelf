@@ -5,7 +5,8 @@
     # - *Output*: "[1, 5, 7, 8, 9, 10]"
 
 # Input
-   input_array = [10, 7, 8, 9, 1, 5]
+input_array = [10, 7, 8, 9, 1, 5]
+
 
 
 def quick_sort(arr):

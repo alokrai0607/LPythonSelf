@@ -13,6 +13,7 @@ def merge_sort(arr):
 
     return merge(left_half, right_half)
 
+
 def merge(left, right):
     result = []
     left_idx, right_idx = 0, 0
@@ -24,6 +25,7 @@ def merge(left, right):
         else:
             result.append(right[right_idx])
             right_idx += 1
+
 
     result.extend(left[left_idx:])
     result.extend(right[right_idx:])

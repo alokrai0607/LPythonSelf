@@ -11,8 +11,11 @@ def delname(dictionary, name):
 
 # Input
 mydict = {}
+
 addnage(mydict, "John", 25)
+
 updage(mydict, "John", 26)
+
 delname(mydict, "John")
 
 # Output

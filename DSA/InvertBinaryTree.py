@@ -6,15 +6,19 @@ class TreeNode:
 
 
 def invert_binary_tree(root):
+   
     if root is None:
         return None
 
     # Swap the left and right child nodes of the current node
+   
     root.left, root.right = root.right, root.left
 
 
     # Recursively invert the left and right subtrees
+   
     invert_binary_tree(root.left)
+   
     invert_binary_tree(root.right)
 
     return root

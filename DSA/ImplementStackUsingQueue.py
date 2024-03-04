@@ -20,10 +20,10 @@ class StackUsingQueue:
 
 stack = StackUsingQueue()
 output = []
-stack.push(1)
-stack.push(2)
-output.append(str(stack.pop()))
+stack.push(5)
 stack.push(3)
+output.append(str(stack.pop()))
+stack.push(6)
 output.append(str(stack.pop()))
 output.append(str(stack.pop()))
 

@@ -5,6 +5,6 @@ def reverse_string_loop(input_string):
     return reversed_string
 
 
-original_string = "Python"
+original_string = "JavaScript"
 reversed_string = reverse_string_loop(original_string)
 print(reversed_string)

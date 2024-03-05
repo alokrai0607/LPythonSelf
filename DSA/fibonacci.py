@@ -2,6 +2,7 @@ def fibonacci(n):
      # Initialize the sequence with the first two Fibonacci numbers
   
   
+
     seq = [0, 1] 
 
     while len(seq) < n:
@@ -9,6 +10,8 @@ def fibonacci(n):
         seq.append(next_number)
 
     return seq
+
+
 
 # Test the function with the given input
 inpnumber = 5

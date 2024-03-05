@@ -1,6 +1,7 @@
 class QueueUsingStack:
     
     
+    
     def __init__(self):
        
         self.enqueue_stack = []
@@ -9,6 +10,7 @@ class QueueUsingStack:
     def enqueue(self, value):
        
         self.enqueue_stack.append(value)
+
 
     def dequeue(self):
         
@@ -20,6 +22,7 @@ class QueueUsingStack:
             return None
 
         return self.dequeue_stack.pop()
+
 
 
 # Input

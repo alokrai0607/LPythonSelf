@@ -6,7 +6,7 @@ def missingNumber(nums):
     return missingNumber
 
 
-input_array = [3, 0, 1]
+input_array = [3, 0, 1, 2]
 
 output = missingNumber(input_array)
 print(output)

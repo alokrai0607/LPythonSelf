@@ -22,3 +22,4 @@ def print_list(list):
         print(i,end=" ")
 
 print_list(cities) #Mumbai Chennai Ahamdabad Delhi Banglore Hydrabad 
+

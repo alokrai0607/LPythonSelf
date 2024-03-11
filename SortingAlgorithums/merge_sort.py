@@ -26,8 +26,8 @@ def merge(left, right):
     
         else:
     
-            result.append(right[right_idx])
-            right_idx += 1
+             result.append(right[right_idx])
+             right_idx += 1
 
 
     result.extend(left[left_idx:])

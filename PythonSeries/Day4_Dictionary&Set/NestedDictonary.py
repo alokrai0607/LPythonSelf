@@ -9,8 +9,6 @@ Student = {
 }
 
 print(Student) #{'name': 'Alok', 'score': {'chem': 95, 'math': 90, 'phy': 92}}
-
-
 print(Student["score"]) #{'chem': 95, 'math': 90, 'phy': 92}
 print(Student.get("score1"))  #None
 print(Student.get("score"))  #{'chem': 95, 'math': 90, 'phy': 92}

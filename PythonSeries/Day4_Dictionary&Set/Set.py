@@ -5,7 +5,6 @@
 collection = {1,2,5,4,8,4,"Hello", "python",3.2}
 print(type(collection))  #<class 'set'>
 print(collection) #{1, 2, 3.2, 4, 5, 8, 'Hello', 'python'}
-
 print(len(collection)) #8
 
 

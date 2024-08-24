@@ -3,12 +3,14 @@
 a = 2 
 b = 5 
 sum = a+b
+
 print ("Sum is" , sum)
 
 #method 2 (sub)
 a = 500
 b = 100
 diff = a-b
+
 print("Sub is" , diff)
 
 #method 3 (Multipluy)

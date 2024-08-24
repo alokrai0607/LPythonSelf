@@ -1,5 +1,6 @@
 #We can store multipule types of elements in list
 
+
 student = ["Alok" , 29 , 97.5 , True ]
 print(student)   #['Alok', 29, 97.5, True]
 print(student[0])   #Alok (String)

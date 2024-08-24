@@ -1,6 +1,6 @@
 name = "Alok Kumar Rai"   #String
 age = 29  #Integer
-height = 9.7  #float
+height = 5.7  #float
 old = False
 contact = None
 

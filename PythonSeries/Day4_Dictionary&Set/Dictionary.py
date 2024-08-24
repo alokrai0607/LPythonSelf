@@ -8,7 +8,6 @@ StudentInfo = {
 }
 
 
-
 print(StudentInfo)  # {'StName': 'Alok',
                     #'Subject': ['Java', 'Python', 'JavaScript', 'CSS', 'HTML'], 
                     #'coNo': ('9044414580', '7880667919', '7007304517'), 

@@ -1,5 +1,4 @@
 #Arthmetic Oprators
-
 a = 10
 b = 5
 

@@ -8,7 +8,6 @@ if(list == list_copy):
 else:
     print("Not Pellindrome")
 
-
 #Check Pellindrome on pellindrome check .
 
 str = ["a","l","o","k","k","o","l","a","m"]

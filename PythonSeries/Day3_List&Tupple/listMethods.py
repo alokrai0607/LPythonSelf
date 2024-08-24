@@ -1,5 +1,6 @@
 list = [5,9,7,8,1,3,2]
 
+
 #append(element)
 list.append(0)
 print(list)    #[5, 9, 7, 8, 1, 3, 2, 0]
@@ -19,7 +20,6 @@ print(list)  #[0, 1, 2, 3, 5, 7, 8, 9]
 #insert(index,value)
 list.insert(5,6)
 print(list)   #[0, 1, 2, 3, 5, 6, 7, 8, 9]
-
 
 str = ['z','d','s','a','c']
 #sort

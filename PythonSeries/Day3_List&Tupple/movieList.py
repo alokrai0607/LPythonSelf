@@ -9,7 +9,6 @@ list.append(user3)
 
 print(list)
 
-
 #+++++++++++++++++++++++++++++++++++++#2nd Way
 
 movie = []

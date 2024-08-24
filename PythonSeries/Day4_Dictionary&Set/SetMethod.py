@@ -9,6 +9,7 @@ emptySet.add(3)
 emptySet.add(2)
 print(emptySet)   #{2, 3}
 
+
 #Remove element from set
 emptySet.remove(2)
 print(emptySet)  #{3}

@@ -1,4 +1,5 @@
 str = "AlokKumarRai"
+
 print(str[4:9])   #Kumar
 print(str[:len(str)]) #AlokKumarRai
 print(str[4:len(str)]) #KumarRai

@@ -27,6 +27,7 @@ def get_value(prompt):
             print("Invalid input. Please enter a numeric value.")
             return get_value(prompt)
 
+
 value1 = get_value("First Number: ")
 value2 = get_value("Second Number: ")
 

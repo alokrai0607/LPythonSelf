@@ -1,3 +1,4 @@
+
 number = int(input("pass your Number Here :"))
 
 if(number%2==0):

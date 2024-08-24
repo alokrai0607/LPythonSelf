@@ -1,5 +1,4 @@
 str = "i am studying Python from apna college college"
-
 # endswith
 print(str.endswith("llege"))  #True
 print(str.endswith("lle"))   #False

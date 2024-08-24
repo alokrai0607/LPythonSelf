@@ -1,5 +1,6 @@
 
 while True:
+    
     light = input("Please pass your Traffic light color here (or type 'exit' to end): ")
 
     if light.lower() == "exit":

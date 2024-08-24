@@ -1,5 +1,4 @@
 marks = {}
-
 nu = int(input("please enter your math here :"))
 marks.update({"math" : nu})
 

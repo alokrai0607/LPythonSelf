@@ -1,6 +1,5 @@
 marks = int(input("Please Pass your Marks Here :"))
 
-
 if(marks>=90):
     print("Grade A")
 elif(marks<90 and 80<=marks):

@@ -2,7 +2,6 @@
 
 user = int(input("Pass Here Voter Age Please : "))
 
-
 if(user>18):
     print("user can vote ")
 elif (user<18):
